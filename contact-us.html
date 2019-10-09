@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+	<link rel="stylesheet" href="styles.css"/>	
+  	<script src="jquery-3.0.0.js"></script>
+  	<script src="jquery-validation-1.15.0/dist/jquery.validate.min.js"></script>
+  	<script src="form-validation.js"></script>
+    </head>
+  <body>
+    <nav>
+      <ul>
+      <li><a href ="#home">Home</a></li>
+      <li class="dropdown">
+  		<a href='' class='dropbtn'>History</a>
+  		<div class='dropdown-content'>
+  			<a href="">Tudor Period</a>
+  			<a href=''>Georgian Era</a>
+  			<a href=''>Victorian Era</a>
+  			<a href=''>World War 1</a>
+  			<a href=''>World War 2</a>
+  		</div>
+      <li><a href ="#places">Places</a></li>
+      <li><a href ="#About">About Me</a></li>
+  	<li><a href ="contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  	
+	  <div class="container">
+	    <h2>Contact Us</h2>
+	  <form action="" name="contact-us">
+
+	      <label for="firstname">First Name</label>
+	      <input type="text" name="firstname" id="firstname" placeholder="John"/>
+
+	      <label for="lastname">Last Name</label>
+	      <input type="text" name="lastname" id="lastname" placeholder="Doe"/>
+
+	      <label for="email">Email</label>
+	      <input type="email" name="email" id="email" placeholder="john@doe.com"/>
+
+	      <label for="phone">Phone</label>
+	      <input type="phone" name="phone" id="password" placeholder="000-000-0000"/>
+		  
+	      <label for="regarding">I'm contacting regarding: </label>
+	      <select name='regarding'>
+			  <option value ='#'>Select One</option>
+			  <option value ='service'>Service Request</option>
+			  <option value ='incident'>Reporting Incident</option>
+			  <option value ='question'>Question</option>
+			  <option value ='feedback'>Just a feedback</option>
+		</select>
+			  
+
+	      <button type="submit">Submit</button>
+
+	    </form>
+	  </div>
+
+</body>
+
+</html>
