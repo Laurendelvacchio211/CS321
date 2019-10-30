@@ -1,12 +1,7 @@
-<!DOCTYPE HTML>  
-<html>
-<head>
-    <link rel="stylesheet" href="styles.css"/>
-</head>
-<body>  
-
+<link rel='stylesheet' href='styles.css' media='screen'>
 
 <?php
+include '../include/top.php';
 // define variables and set to empty values
 $nameErr = $emailErr = $genderErr = $websiteErr = $phoneErr = $check_listErr = "";
 $name = $email = $gender = $comment = $website = $phone = $check_list = "";
