@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+.error{
+    color:red;
+}
+
+.success{
+    color: #ff9966;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+body{
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color:#777;
+	background: white;
+        
+}
+
+h2{
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    color: #021F59;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+        background: #CCC;
+        padding: 15px;
+        box-shadow:inset 0 1px 3px rgba(0, 0, 0, 1);
+        font-family: Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight:bold;
+        color: #021F59;
+}
+
+#name:hover{
+    box-shadow: 1px 1px 5px grey;
+}
+
+#phone:hover{
+    box-shadow: 1px 1px 5px grey;
+}
+
+#email:hover{
+    box-shadow: 1px 1px 5px grey;
+}
+
+#checkbox:hover{
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 1px 1px 5px grey;
+}
+
+#submit{
+    text-align:center;
+    margin-left: auto;
+    margin-right:auto;
+    
+    padding: 4px;
+}
+
+#submit:hover{
+   box-shadow: 1px 1px 5px grey; 
+}
+
+#checkbox:hover{
+   box-shadow: 1px 1px 5px grey; 
+}
+
+#gender:hover{
+    box-shadow: 1px 1px 5px grey;
+}

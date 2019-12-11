@@ -11,8 +11,7 @@ $xml = '';
 if (file_exists($cache)) {
     $modified = filemtime($cache);
 }
-
-// create or update the cache if necessary
+ 
 if (!isset($modified) || $modified + $lifetime < time()) {
     if ($xml ===  file_get_contents($url)) {
         file_put_contents($cache, $xml);
@@ -30,8 +29,14 @@ if (file_exists($cache)) {
 ?>
 
 
-<div class = "container">
-    <title>Weather in London</title>
+ 
+<div class = "container5">
+    <ul class="breadcrumb">
+        <li style="padding-right:0px;"><a href="../index.php">Home</a></li>
+       <li>Weather</li>
+
+</ul>
+   
 
 <h1>What is the weather in London today?</h1>
 
@@ -44,7 +49,16 @@ date_default_timezone_set('EST');
 if ($feed === false){
     echo '<p>Sorry, weather feed is unavailble</p>';
 } else {
+    $count = 0;
     foreach($feed->channel->item as $item){
+        if( $count === 0 ){
+            $today = strtotime( $item->pubDate );
+            $today_timestamp = mktime( 0, 0, 0, date('n', $today), date('j', $today), date('Y', $today ));
+        } else {
+            $today_timestamp = $today_timestamp + 86400 ;
+        }
+        $count++;
+        
      echo '<article>';
      ?>
         <div class="datewrapper">
@@ -60,29 +74,36 @@ if ($feed === false){
     $date = "today";
     $enddate = '2019-11-29';
    
-   
-
+ 
      ?>   
     <div class="month">
         <?php
-        echo date("M") . "<br>";
+        echo date("M", $today_timestamp) . "<br>";
         ?>
     </div>
     
     <div class="day">
         <?php
-        echo date("j") . "<br>";
+        echo date("j", $today_timestamp) . "<br>";
        
         ?>
     </div>
     
     <div class="day-of-week">
         <?php
-        echo date("D") . "<br>";
+        echo date("D", $today_timestamp) . "<br>";
         ?>
     </div>
 </div>
         </div>
+
+<?php
+ 
+    
+   echo '</article>'; 
+ 
+
+?>
 <?php
  
     }
@@ -90,43 +111,18 @@ if ($feed === false){
  
 }
 ?>
+<?php
+ 
+    
+   echo '</article>'; 
+ 
+
+?>
 </div>
 
-<style>
-    
-    .container{
-        padding-left:15%;
-        padding-right:15%;
-        padding-bottom:10%;
-    }
-    
-    
-    
-    .date{
-        display:block;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        max-height: 62px;
-        min-width: 50px;
-        text-align: center;
-        padding:10px;
-        margin:20px;
-        
-    }
-    .datewrapper{
-        display:flex;
-    }
-    
-    h1{
-        padding: 25px 0px;
-        font-size: 40px;
-    }
-    
-    article{
-        padding:0;
-    }
-</style>
+
 <?php
 
 include 'include/bottom.php';
 ?>
+

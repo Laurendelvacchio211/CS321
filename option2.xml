@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:georss="http://www.georss.org/georss" version="2.0">
   <channel>
     <title>BBC Weather - Forecast for  London, GB</title>
@@ -8,42 +6,42 @@
     <description>3-day forecast for London from BBC Weather, including weather, temperature and wind information</description>
     <language>en</language>
     <copyright>Copyright: (C) British Broadcasting Corporation, see http://www.bbc.co.uk/terms/additional_rss.shtml for more details</copyright>
-    <pubDate>Sun, 17 Nov 2019 20:29:03 GMT</pubDate>
-    <dc:date>2019-11-17T20:29:03Z</dc:date>
+    <pubDate>Wed, 11 Dec 2019 17:08:44 GMT</pubDate>
+    <dc:date>2019-12-11T17:08:44Z</dc:date>
     <dc:language>en</dc:language>
     <dc:rights>Copyright: (C) British Broadcasting Corporation, see http://www.bbc.co.uk/terms/additional_rss.shtml for more details</dc:rights>
     <atom:link href="https://weather-broker-cdn.api.bbci.co.uk/%s/forecast/rss/3day/%s" type="application/rss+xml" rel="self" />
     <image>
       <title>BBC Weather - Forecast for  London, GB</title>
-      <url>http://static.bbci.co.uk/weather/0.3.203/images/icons/individual_57_icons/en_on_light_bg/36.gif</url>
+      <url>http://static.bbci.co.uk/weather/0.3.203/images/icons/individual_57_icons/en_on_light_bg/2.gif</url>
       <link>https://www.bbc.co.uk/weather/2643743</link>
     </image>
     <item>
-      <title>Tonight: Light Cloud, Minimum Temperature: 5°C (42°F)</title>
+      <title>Tonight: Partly Cloudy, Minimum Temperature: 1°C (33°F)</title>
       <link>https://www.bbc.co.uk/weather/2643743?day=0</link>
-      <description>Minimum Temperature: 5°C (42°F), Wind Direction: Northerly, Wind Speed: 12mph, Visibility: Moderate, Pressure: 1013mb, Humidity: 87%, UV Risk: 0, Pollution: Moderate, Sunset: 16:09 GMT</description>
-      <pubDate>Sun, 17 Nov 2019 20:29:03 GMT</pubDate>
-      <guid isPermaLink="false">https://www.bbc.co.uk/weather/2643743-0-2019-11-17T09:51:00.000+0000</guid>
-      <dc:date>2019-11-17T20:29:03Z</dc:date>
-      <georss:point>51.5085 -0.1257</georss:point>
+      <description>Minimum Temperature: 1°C (33°F), Wind Direction: South Westerly, Wind Speed: 8mph, Visibility: Good, Pressure: 999mb, Humidity: 89%, UV Risk: 0, Pollution: Low, Sunset: 15:50 GMT</description>
+      <pubDate>Wed, 11 Dec 2019 17:08:44 GMT</pubDate>
+      <guid isPermaLink="false">https://www.bbc.co.uk/weather/2643123-0-2019-12-11T09:53:00.000+0000</guid>
+      <dc:date>2019-12-11T17:08:44Z</dc:date>
+      <georss:point>53.4809 -2.2374</georss:point>
     </item>
     <item>
-      <title>Monday: Sunny Intervals, Minimum Temperature: 0°C (32°F) Maximum Temperature: 9°C (48°F)</title>
+      <title>Thursday: Heavy Rain, Minimum Temperature: 5°C (41°F) Maximum Temperature: 7°C (44°F)</title>
       <link>https://www.bbc.co.uk/weather/2643743?day=1</link>
-      <description>Maximum Temperature: 9°C (48°F), Minimum Temperature: 0°C (32°F), Wind Direction: North Westerly, Wind Speed: 13mph, Visibility: Very Good, Pressure: 1015mb, Humidity: 81%, UV Risk: 1, Pollution: Moderate, Sunrise: 07:23 GMT, Sunset: 16:08 GMT</description>
-      <pubDate>Sun, 17 Nov 2019 20:29:03 GMT</pubDate>
-      <guid isPermaLink="false">https://www.bbc.co.uk/weather/2643743-1-2019-11-17T09:51:00.000+0000</guid>
-      <dc:date>2019-11-17T20:29:03Z</dc:date>
-      <georss:point>51.5085 -0.1257</georss:point>
+      <description>Maximum Temperature: 7°C (44°F), Minimum Temperature: 5Â°C (41Â°F), Wind Direction: South Easterly, Wind Speed: 11mph, Visibility: Good, Pressure: 984mb, Humidity: 92%, UV Risk: 0, Pollution: Low, Sunrise: 08:15 GMT, Sunset: 15:49 GMT</description>
+      <pubDate>Wed, 11 Dec 2019 17:08:44 GMT</pubDate>
+      <guid isPermaLink="false">https://www.bbc.co.uk/weather/2643123-1-2019-12-11T09:53:00.000+0000</guid>
+      <dc:date>2019-12-11T17:08:44Z</dc:date>
+      <georss:point>53.4809 -2.2374</georss:point>
     </item>
     <item>
-      <title>Tuesday: Sunny Intervals, Minimum Temperature: 4°C (40°F) Maximum Temperature: 7°C (45°F)</title>
+      <title>Friday: Light Rain Showers, Minimum Temperature: 5°C (40°F) Maximum Temperature: 8°C (47°F)</title>
       <link>https://www.bbc.co.uk/weather/2643743?day=2</link>
-      <description>Maximum Temperature: 7°C (45°F), Minimum Temperature: 4°C (40°F), Wind Direction: South Easterly, Wind Speed: 7mph, Visibility: Moderate, Pressure: 1016mb, Humidity: 82%, UV Risk: 1, Pollution: Moderate, Sunrise: 07:25 GMT, Sunset: 16:06 GMT</description>
-      <pubDate>Sun, 17 Nov 2019 20:29:03 GMT</pubDate>
-      <guid isPermaLink="false">https://www.bbc.co.uk/weather/2643743-2-2019-11-17T09:51:00.000+0000</guid>
-      <dc:date>2019-11-17T20:29:03Z</dc:date>
-      <georss:point>51.5085 -0.1257</georss:point>
+      <description>Maximum Temperature: 8°C (47°F), Minimum Temperature: 5°C (40°F), Wind Direction: Westerly, Wind Speed: 15mph, Visibility: Good, Pressure: 976mb, Humidity: 86%, UV Risk: 0, Pollution: Low, Sunrise: 08:16 GMT, Sunset: 15:49 GMT</description>
+      <pubDate>Wed, 11 Dec 2019 17:08:44 GMT</pubDate>
+      <guid isPermaLink="false">https://www.bbc.co.uk/weather/2643123-2-2019-12-11T09:53:00.000+0000</guid>
+      <dc:date>2019-12-11T17:08:44Z</dc:date>
+      <georss:point>53.4809 -2.2374</georss:point>
     </item>
   </channel>
 </rss>
